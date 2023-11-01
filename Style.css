@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+}
+
+.hRight {
+    float: right;
+    text-align: right;
+}
+
+#gNav {
+    clear: both;
+    background-color: #A2EBB1;
+    padding: 5px 0;
+}
+
+.hNav {
+    float: right;
+}
+
+.hButton li a {
+    text-decoration: none;
+    color: #cf682d;
+}
+.hButton li a:hover{
+    color: #900;
+    text-decoration: underline;
+}
+
+nav#gNav ul li {
+    border-right: solid 1px #333;
+    display: inline;
+    padding: 0 10px;
+}
+nav#gNav ul li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+#gMain {
+    clear: both;
+}
