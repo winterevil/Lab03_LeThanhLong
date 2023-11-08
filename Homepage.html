@@ -26,15 +26,15 @@
             <button type="submit" name="submit">Find books</button>
         </div>
         <ul class="hButton">
-            <li><a href="Lab1_2p5.html">HOME PAGE</a></li>
-            <li><a href="Homepage.html">INTRODUCTION</a></li>
+            <li><a href="Homepage.html">HOME PAGE</a></li>
+            <li><a href="Lab1_2p5.html">INTRODUCTION</a></li>
             <li><a href="#">CONTACT</a></li>
         </ul>
     </nav>
-    <div id="gMain">
+    <div class="body">
         <article>
-            <aside class="sidebarL">
-                <div>
+            <aside class="article">
+                <div class="articleB">
                     <p><b>BOOKS BY SUBJECT</b></p>
                     <ul type="square">
                         <li><a href="">Foreign language</a></li>
@@ -47,6 +47,8 @@
                         <li><a href="">Economics</a></li>
                         <li><a href="">Listen to the song</a></li>
                     </ul>
+                </div>
+                <div class="articleB">
                     <p><b>BOOKS BY PUBLISHER</b></p>
                     <ul type="square">
                         <li><a href="">Young publishers</a></li>
@@ -61,44 +63,86 @@
                 </div>
             </aside>
             <section class="content">
-                <div style="background-color: #DEF2F9; width:25%;height:30%">
-                    <center>
-                        <h1 style="color:blue">Giáo trình Tin học cơ bản</h1>
-                        <img src="./img/tinhoc.jpg">
-                        <p>Đơn giá: <label style="color:red">26,000 VNĐ</label></p>
-                        <button style="width:20%"><a href="detailproduct.html"><img src="./img/datmua.png"
-                                    style="width:100%"></a></button>
-                    </center>
+                <p class="title"><b>NEW BOOKS</b></p>
+                <div class="container">
+                <div class="product-box" style="background-color: #DEF2F9;">
+                    <h1 class="name" style="color:blue">Giáo trình Tin học cơ bản</h1>
+                    <img class="photo" src="./img/tinhoc.jpg">
+                    <p class="price">Đơn giá: <label style="color:red">126,000 VNĐ</label></p>
+                    <a href="#"><img src="./img/datmua.png" class="buy"></a>
+                </div>
+                <div class="product-box" style="background-color: #DEF2F9;">
+                    <h1 class="name" style="color:blue">English For Tech</h1>
+                    <img class="photo" src="./img/EnglishForTech.jpg">
+                    <p class="price">Đơn giá: <label style="color:red">206,000 VNĐ</label></p>
+                    <a href="#"><img src="./img/datmua.png" class="buy"></a>
+                </div>
+                <div class="product-box" style="background-color: #DEF2F9;">
+                    <h1 class="name" style="color:blue">BARC Computer Science</h1>
+                    <img class="photo" src="./img/BARC.png">
+                    <p class="price">Đơn giá: <label style="color:red">260,000 VNĐ</label></p>
+                    <a href="#"><img src="./img/datmua.png" class="buy"></a>
+                </div>
+                <div class="product-box" style="background-color: #DEF2F9;">
+                    <h1 class="name" style="color:blue">The Davinci Code</h1>
+                    <img class="photo" src="./img/Davinci.png">
+                    <p class="price">Đơn giá: <label style="color:red">265,000 VNĐ</label></p>
+                    <a href="#"><img src="./img/datmua.png" class="buy"></a>
+                </div>
+                <div class="product-box" style="background-color: #DEF2F9;">
+                    <h1 class="name" style="color:blue">Harry Potter</h1>
+                    <img class="photo" src="./img/harrypotter.png">
+                    <p class="price">Đơn giá: <label style="color:red">267,000 VNĐ</label></p>
+                    <a href="#"><img src="./img/datmua.png" class="buy"></a>
+                </div>
+                <div class="product-box" style="background-color: #DEF2F9;">
+                    <h1 class="name" style="color:blue">Giáo trình Tin học cơ bản</h1>
+                    <img class="photo" src="./img/tinhoc.jpg">
+                    <p class="price">Đơn giá: <label style="color:red">126,000 VNĐ</label></p>
+                    <a href="#"><img src="./img/datmua.png" class="buy"></a>
+                </div>
                 </div>
             </section>
-            <aside class="sidebarR">
-                <h3>BESTSELLER</h3>
-                <marquee direction="up" scrollamount="5" scrolldelay="100" onmousemove="stop()" onmouseout="start()">
-                    <p><a href="#"><img src=.\img\EnglishForTech.jpg style="width: 200px;height: 300px;">English For
-                            Tech</a></p>
-                    <p><a href="#"><img src=.\img\BARC.png style="width: 200px;height: 300px;">BARC Computer Science</a>
-                    </p>
-                    <p><a href="#"><img src=.\img\VisualBasic.png style="width: 200px;height: 300px;">Visual Basic</a>
-                    </p>
-                    <p><a href="#"><img src=.\img\harrypotter.png style="width: 200px;height: 300px;">Harry Potter</a>
-                    </p>
-                </marquee>
-                <h3>THE WEBSITE LINK</h3>
-                <select name="link">
-                    <option value="v1">--- Select the linking page ---</option>
-                    <option value="v2"><a href="https://lib.eiu.edu.vn/">Eastern International University</a></option>
-                    <option value="v2"><a href="https://eiu.edu.vn/">Eastern International University</a></option>
-                </select>
-                <h3>ACCESS STATISTICS</h3>
-                <h4>Total Access: 500</h4>
-                <h4>Online: 3</h4>
+            <aside class="article">
+                <div class="articleB">
+                    <p><b>BESTSELLER</b></p>
+                    <marquee direction="up" scrollamount="5" scrolldelay="100" onmousemove="stop()"
+                        onmouseout="start()">
+                        <a href="#"><img src=.\img\EnglishForTech.jpg style="width: 20%; height: 30%;">English
+                            For
+                            Tech</a><br>
+                        <a href="#"><img src=.\img\BARC.png style="width: 20%; height: 30%;">BARC Computer
+                            Science</a><br>
+
+                        <a href="#"><img src=.\img\VisualBasic.png style="width: 20%; height: 30%;">Visual
+                            Basic</a><br>
+
+                        <a href="#"><img src=.\img\harrypotter.png style="width: 20%; height: 30%;">Harry
+                            Potter</a>
+                    </marquee>
+                </div>
+                <div class="articleB">
+                    <p><b>THE WEBSITE LINK</b></p>
+                    <select name="link">
+                        <option value="v1">--- Select the linking page ---</option>
+                        <option value="v2"><a href="https://lib.eiu.edu.vn/">Eastern International
+                                University</a></option>
+                        <option value="v2"><a href="https://eiu.edu.vn/">Eastern International University</a>
+                        </option>
+                    </select>
+                </div>
+                <div class="articleB">
+                    <p><b>ACCESS STATISTICS</b></p>
+                    <h4>Total Access: 500</h4>
+                    <h4>Online: 3</h4>
+                </div>
             </aside>
         </article>
     </div>
-    <footer id="foot">
-       <p> ©2016 - ABCBookStore.Allright Reserved</p>
-       <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
-       <p>Email: abcbookstore@gmail.com</p>
+    <footer class="foot">
+        <p> ©2016 - ABCBookStore.Allright Reserved</p>
+        <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+        <p>Email: abcbookstore@gmail.com</p>
     </footer>
 </body>
 
